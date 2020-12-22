@@ -1,4 +1,4 @@
-package nl.novi.JavaBasics.helloworld;
+package nl.novi.javabasics.helloworld;
 
 public class Main {
 
