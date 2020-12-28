@@ -1,4 +1,4 @@
-package nl.novi.javabasics.byteshortintlong;
+package nl.novi.byteshortintlong;
 
 public class MainChallenge {
     public static void main(String[] args) {

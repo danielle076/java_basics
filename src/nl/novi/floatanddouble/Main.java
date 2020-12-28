@@ -1,4 +1,4 @@
-package nl.novi.javabasics.floatanddouble;
+package nl.novi.floatanddouble;
 
 public class Main {
     public static void main(String[] args) {
