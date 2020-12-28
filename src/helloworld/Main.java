@@ -1,4 +1,4 @@
-package nl.novi.helloworld;
+package helloworld;
 
 public class Main {
 

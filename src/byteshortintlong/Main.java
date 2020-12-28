@@ -1,4 +1,4 @@
-package nl.novi.byteshortintlong;
+package byteshortintlong;
 
 public class Main {
     public static void main(String[] args) {
