@@ -12,8 +12,8 @@ public class Main {
         System.out.println("Double minimum value = " + myMinDoubleValue); // 4.9E-324
         System.out.println("Double maximum value = " + myMaxDoubleValue); // 1.7976931348623157E308
 
-        // double is accepted as the default. Bij float moet je dus een f zetten of (float) bij double mag je een d zetten
-        // double wordt het meest gebruikt
+        // double is accepted as the default. So with float you must set an f or (float) with double you may set a d
+        // double is most commonly used
         float myFloatValue = 5.25f;
         float myFloatValue2 = (float) 5.25;
         double myDoubleValue = 5.25d;

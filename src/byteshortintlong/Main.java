@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         // int
         int myValue = 10000;
-        // waar normaal een punt komt mag je een '_'
+
+        // where normally a point is reached, you may use a '_'
         int myValue2 = 10_000;
 
         int myMinIntValue = Integer.MIN_VALUE;
@@ -14,7 +15,7 @@ public class Main {
         System.out.println("Busted MAX value = " + (myMaxIntValue + 1)); // -2147483648
         System.out.println("Busted MIN value = " + (myMinIntValue - 1)); // 2147483647
 
-        // je kan geen int van 2147483648 intikken: foutmelding
+        // you cannot enter int of 2147483648 gives error message
         int myMaxIntTest = 2147483647;
 
         // byte
@@ -30,7 +31,7 @@ public class Main {
         System.out.println("Short Maximum Value = " + myMaxShortValue); // 32767
 
         // long
-        // een long eindigt altijd met een hoofdletter L. Gebruik je de L niet dan ziet Java het nummer als een int
+        // a long always ends with a capital L. If you don't use the L, Java will see the number as an int
         long myLongValue = 100L;
 
         long myMinLongValue = Long.MIN_VALUE;
@@ -39,11 +40,11 @@ public class Main {
         System.out.println("Long Maximum Value = " + myMaxLongValue); // 9223372036854775807
 
         int myTotal = (myMaxIntTest / 2);
-        // wanneer je (byte) of (short) niet toevoegd zal Java het zien als een default integer
+        // when you don't add (byte) or (short) Java will see it as a default integer
         byte myNewByteValue = (byte) (myMinByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue / 2);
 
-        // gebruik altijd een integer, behalve wanneer je echt een byte, short of long moet gebruiken
+        // always use an integer, except when you really need to use a byte, short or long
     }
 }
 
