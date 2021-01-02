@@ -1,4 +1,4 @@
-package charandboolean;
+package CharAndBoolean;
 
 public class Main {
 

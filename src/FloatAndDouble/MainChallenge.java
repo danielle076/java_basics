@@ -1,4 +1,4 @@
-package floatanddouble;
+package FloatAndDouble;
 
 public class MainChallenge {
     public static void main(String[] args) {
