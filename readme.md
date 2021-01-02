@@ -5,3 +5,4 @@ In the src folder you will find the following:
 3. Float and double + challenge
 4. Char and boolean
 5. String
+6. Operators
