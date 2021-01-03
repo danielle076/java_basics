@@ -7,3 +7,5 @@
 5. String
 6. Operators
 7. If Then
+8. Relational Operators
+9. Logical Operator
