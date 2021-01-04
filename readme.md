@@ -6,6 +6,7 @@
 4. Char and boolean
 5. String
 6. Operators
-7. If Then
-8. Relational Operators
-9. Logical Operator
+7. If then
+8. Relational operators
+9. Logical operator
+10. Operator vs equals operator
