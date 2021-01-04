@@ -12,8 +12,8 @@ public class Main {
         boolean isMonster = false;
         if (isMonster == true)
             System.out.println("It is not a monster"); // doesn't print this out
-            System.out.println("I'm scared of monsters"); // print this, even though == is true (it shouldn't print anything)
-            // with a codeblock {} he looks at both lines, now only at the first one and prints the second
+        System.out.println("I'm scared of monsters"); // print this, even though == is true (it shouldn't print anything)
+        // with a codeblock {} he looks at both lines, now only at the first one and prints the second
 
         // if you use codeblock {} he won't print out both lines
         boolean isGhost = false;

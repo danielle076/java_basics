@@ -11,7 +11,7 @@ public class Main {
         // ++ Increases the value of a variable by 1 ++x
         // -- Decreases the value of a variable by 1 --x
 
-	    int intResult = 1 + 2;
+        int intResult = 1 + 2;
         System.out.println("1 + 2 = " + intResult); // 1 + 2 = 3
 
         int previousResult = intResult;

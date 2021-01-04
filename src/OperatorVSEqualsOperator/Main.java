@@ -3,7 +3,7 @@ package OperatorVSEqualsOperator;
 public class Main {
 
     public static void main(String[] args) {
-	    // what's wrong with this code
+        // what's wrong with this code
 //        int newValue = 50;
 //        if (newValue = 50){
 //            System.out.println("This is an error");
@@ -12,7 +12,7 @@ public class Main {
 
         // correct code
         int newValue = 50;
-        if (newValue == 50){
+        if (newValue == 50) {
             System.out.println("This is true");
         }
 
