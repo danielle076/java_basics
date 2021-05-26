@@ -1,4 +1,4 @@
-package ByteShortIntLong;
+package C_IntByteShortLong;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Busted MAX value = " + (myMaxIntValue + 1)); // -2147483648
         System.out.println("Busted MIN value = " + (myMinIntValue - 1)); // 2147483647
 
-        // you cannot enter int of 2147483648 gives error message
+        // you cannot enter int of 2147483648: gives error message
         int myMaxIntTest = 2147483647;
 
         // byte
@@ -43,8 +43,5 @@ public class Main {
         // when you don't add (byte) or (short) Java will see it as a default integer
         byte myNewByteValue = (byte) (myMinByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue / 2);
-
-        // always use an integer, except when you really need to use a byte, short or long
     }
 }
-

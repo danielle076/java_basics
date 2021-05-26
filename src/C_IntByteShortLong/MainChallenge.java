@@ -1,4 +1,4 @@
-package ByteShortIntLong;
+package C_IntByteShortLong;
 
 public class MainChallenge {
     public static void main(String[] args) {
