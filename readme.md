@@ -1,15 +1,15 @@
-
-**In the src folder you will find the following:**
-1. Hello World
-2. Byte, short, int and long + challenge
-3. Float and double + challenge
-4. Char and boolean
-5. String
-6. Operators
-7. If then
-8. Relational operators
-9. Logical operator
-10. Operator vs equals operator
-11. Keyword and expressions
-12. Statement
-13. Codeblock
+## In the src folder you will find the following:
+- `A_Hello World`
+- `B_Print`
+- `C_ByteShortInt` + `Challenge`
+- `D_FloatAndDouble` + `Challenge`
+- `E_CharAndBoolean`
+- `F_String`
+- `G_Operators`
+- `H_IfThen`
+- `I_RelationalOperators`
+- `J_LogicalOperator`
+- `K_OperatorVSEqualsOperator`
+- `L_KeywordAndExpressions`
+- `M_Statement`
+- `N_CodeBlock`
