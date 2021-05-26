@@ -1,15 +1,16 @@
 ## In the src folder you will find the following:
 - `A_Hello World`
 - `B_Print`
-- `C_ByteShortInt` + `Challenge`
-- `D_FloatAndDouble` + `Challenge`
-- `E_CharAndBoolean`
-- `F_String`
-- `G_Operators`
-- `H_IfThen`
-- `I_RelationalOperators`
-- `J_LogicalOperator`
-- `K_OperatorVSEqualsOperator`
-- `L_KeywordAndExpressions`
-- `M_Statement`
-- `N_CodeBlock`
+- `C_Variables`
+- `D_ByteShortInt` + `Challenge`
+- `E_FloatAndDouble` + `Challenge`
+- `F_CharAndBoolean`
+- `G_String`
+- `H_Operators`
+- `I_IfThen`
+- `J_RelationalOperators`
+- `K_LogicalOperator`
+- `L_OperatorVSEqualsOperator`
+- `M_KeywordAndExpressions`
+- `N_Statement`
+- `O_CodeBlock`
