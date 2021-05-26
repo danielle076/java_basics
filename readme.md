@@ -2,15 +2,16 @@
 - `A_Hello World`
 - `B_Print`
 - `C_Variables`
-- `D_ByteShortInt` + `Challenge`
-- `E_FloatAndDouble` + `Challenge`
-- `F_CharAndBoolean`
-- `G_String`
-- `H_Operators`
-- `I_IfThen`
-- `J_RelationalOperators`
-- `K_LogicalOperator`
-- `L_OperatorVSEqualsOperator`
-- `M_KeywordAndExpressions`
-- `N_Statement`
-- `O_CodeBlock`
+- `D_IntByteShort` + `Challenge`
+- `E_Scanner`
+- `F_FloatAndDouble` + `Challenge`
+- `G_CharAndBoolean`
+- `H_String`
+- `I_Operators`
+- `J_IfThen`
+- `K_RelationalOperators`
+- `L_LogicalOperator`
+- `M_OperatorVSEqualsOperator`
+- `N_KeywordAndExpressions`
+- `O_Statement`
+- `P_CodeBlock`
