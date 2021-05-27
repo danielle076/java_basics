@@ -1,4 +1,4 @@
-package Statement;
+package P_Statement;
 
 public class Main {
 
@@ -7,7 +7,6 @@ public class Main {
         // 'myVariable = 50' is an expression
         // 'int myVariable = 50;' is a statement
 
-        // examples of statements
         // a semicolon is needed to complete a Java line to make it a statement
         myVariable++;
         myVariable--;
