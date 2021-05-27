@@ -2,6 +2,10 @@
 
 Variables are containers in which you can store data in Java. These variables have a data type, a name and a value.
 
+- <i>type</i> indicates what kind of information is stored in that variable
+- <i>name</i> describes the information stored
+- <i>value</i> is the stored information itself
+
 In Java, there are different data types of variables, for example:
 
 - `String` - stores text, such as "Hello". String values are surrounded by double quotes
