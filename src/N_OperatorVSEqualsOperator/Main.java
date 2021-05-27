@@ -1,4 +1,4 @@
-package OperatorVSEqualsOperator;
+package N_OperatorVSEqualsOperator;
 
 public class Main {
 
