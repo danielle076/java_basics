@@ -1,4 +1,4 @@
-package String;
+package I_String;
 
 public class Main {
 
