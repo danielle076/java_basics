@@ -1,4 +1,4 @@
-package E_Scanner;
+package F_Scanner;
 
 import java.util.Scanner;
 

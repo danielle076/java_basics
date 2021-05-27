@@ -3,7 +3,7 @@
 - `B_Print`
 - `C_Variables`
 - `D_IntByteShort` + `Challenge`
-- `E_Scanner`
+- `F_Scanner`
 - `F_FloatAndDouble` + `Challenge`
 - `G_CharAndBoolean`
 - `H_String`
