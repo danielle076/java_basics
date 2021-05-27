@@ -1,4 +1,4 @@
-package FloatAndDouble;
+package G_FloatAndDouble;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,13 +12,10 @@ public class Main {
         System.out.println("Double minimum value = " + myMinDoubleValue); // 4.9E-324
         System.out.println("Double maximum value = " + myMaxDoubleValue); // 1.7976931348623157E308
 
-        // double is accepted as the default. So with float you must set an f or (float) with double you may set a d
-        // double is most commonly used
         float myFloatValue = 5.25f;
         float myFloatValue2 = (float) 5.25;
         double myDoubleValue = 5.25d;
 
-        // double is more precise then float
         int myInt = 5 / 3;
         float myFloat = 5f / 3f;
         double myDouble = 5d / 3d;
