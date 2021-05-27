@@ -1,4 +1,4 @@
-package LogicalOperator;
+package M_LogicalOperator;
 
 public class Main {
 
