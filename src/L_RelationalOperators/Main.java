@@ -44,13 +44,5 @@ public class Main {
         if (topScore6 <= 100) {
             System.out.println("Oh yes it is!");
         }
-
-        // && stands for AND
-        // this performs two tests. They both need to be true to print the message
-        // if topScore (100) is greater than 60 AND topScore (100) less than 110
-        int secondTopScore = 60;
-        if (topScore > secondTopScore && topScore < 110) {
-            System.out.println("Greater than second top score and less than 110");
-        }
     }
 }
