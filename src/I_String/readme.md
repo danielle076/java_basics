@@ -1,8 +1,12 @@
 ## String
 
-Text is stored in a variable of type String. Strings in Java are Objects that are backed internally by a char array. Since arrays are immutable (cannot grow), Strings are immutable as well. Whenever a change to a String is made, an entirely new String is created.
+Text is stored in a variable of type `String`. 
 
 A String is a data type, such as an int and float, but is used to represent text rather than numbers. For example, the word "hamburger" and the phrase "I ate 3 hamburgers" are both Strings. Even "12345" could be considered a String, if specified correctly.
+
+A String variable contains a set of characters enclosed in double quotes. A String in Java is actually an object that contains methods that can perform certain operations on strings. For example, the length of a string can be found using the method `length()`: `System.out.println("The length of the name is: " + name.length());`
+
+Many more methods possible, for example: `toUpperCase()`, `toLowerCase()`, `indexOf()`, `substring()`, see for more methods https://www.w3schools.com/java/java_ref_string.asp. 
 
     String myString = "This is a String";
     System.out.println("myString is equal to " + myString); // myString is equal to This is a String
