@@ -1,4 +1,4 @@
-package KeywordAndExpressions;
+package O_KeywordAndExpressions;
 
 public class Main {
 
@@ -24,6 +24,6 @@ public class Main {
             System.out.println("This is an expression");
         }
         // '"This is an expression"' is the expression. System.out.println, () and ; do not participate
-        // System.out.println is een method
+        // System.out.println is a method
     }
 }
