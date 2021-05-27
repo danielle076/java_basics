@@ -1,4 +1,4 @@
-package CharAndBoolean;
+package H_CharAndBoolean;
 
 public class Main {
 
@@ -10,8 +10,8 @@ public class Main {
         char myUnicodeChar = '\u0044';
         System.out.println(myChar); // D
         System.out.println(myUnicodeChar); // D
-        char myCopyrightChar = '\u00A9'; // ©
-        System.out.println(myCopyrightChar);
+        char myCopyrightChar = '\u00A9';
+        System.out.println(myCopyrightChar); // ©
 
         // boolean
         boolean myTrueBoolean = true;
