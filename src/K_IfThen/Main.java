@@ -1,4 +1,4 @@
-package IfThen;
+package K_IfThen;
 
 public class Main {
 
