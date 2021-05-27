@@ -1,4 +1,4 @@
-package RelationalOperators;
+package L_RelationalOperators;
 
 public class Main {
 
