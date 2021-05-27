@@ -1,6 +1,6 @@
 ## String
 
-Strings in Java are Objects that are backed internally by a char array. Since arrays are immutable (cannot grow), Strings are immutable as well. Whenever a change to a String is made, an entirely new String is created.
+Text is stored in a variable of type String. Strings in Java are Objects that are backed internally by a char array. Since arrays are immutable (cannot grow), Strings are immutable as well. Whenever a change to a String is made, an entirely new String is created.
 
 A String is a data type, such as an int and float, but is used to represent text rather than numbers. For example, the word "hamburger" and the phrase "I ate 3 hamburgers" are both Strings. Even "12345" could be considered a String, if specified correctly.
 
