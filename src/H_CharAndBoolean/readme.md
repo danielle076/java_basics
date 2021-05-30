@@ -4,13 +4,20 @@ The `char` data type stores character data in a fixed-length field. Data can be 
 
     char myChar = 'D';
 
-Unicode is always written with first \ and then a code from unicode-table.com.
+Unicode is always written with first \ and then a code from https://unicode-table.com/en/.
 
     char myUnicodeChar = '\u0044';
     System.out.println(myChar); // D
     System.out.println(myUnicodeChar); // D
     char myCopyrightChar = '\u00A9'; 
     System.out.println(myCopyrightChar); // ©
+
+ASCII is always written with first \ and then a code from http://www.asciitable.com/.
+
+    char myAscIIChar = '\106';
+    System.out.println(myAscIIChar); // F
+
+![img.png](img.png)
 
 ## Boolean
 
