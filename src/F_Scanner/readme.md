@@ -59,3 +59,8 @@ Step 3: use the variable from Scanner and ask the user to type something. We mad
 Step 4: give feedback to user.
 
     System.out.println("Uw naam is: " + userName);
+
+
+## Challenge
+
+Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
