@@ -19,7 +19,8 @@
 - `O_KeywordAndExpressions`
 - `P_Statement`
 - `Q_CodeBlock`
-- `R_ForStatement`
-- `R_WhileAndDoWhile`
+- `R_LoopStatements`  
+    - `ForStatement`
+    - `WhileAndDoWhile`
 - `S_Array`
 - `S_ArrayList`

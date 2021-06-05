@@ -2,7 +2,7 @@ package F_Scanner;
 
 import java.util.Scanner;
 
-public class MainChallenge {
+public class Challenge {
 
     public static void main(String[] args) {
         // userinput code

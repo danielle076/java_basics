@@ -3,9 +3,6 @@ package F_Scanner.Example3;
 import java.util.Scanner;
 
 public class ProblemsAndSolutions {
-    // what if the user enters a negative number for the year of birth
-    // what will happen to the user if they enter some letters instead of only numbers
-
     public static void main(String[] args) {
         Scanner scanning = new Scanner(System.in);
 
@@ -32,6 +29,7 @@ public class ProblemsAndSolutions {
         } else {
             System.out.println("Unable to parse year of birth.");
         }
+
         scanning.close();
     }
 }

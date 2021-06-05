@@ -38,7 +38,7 @@ Step 5: we want the value of `number` (which is now 0) to have the value of what
 
     number = userInteraction.nextInt();
 
-step 6: give feedback to the user
+step 6: give feedback to the user.
 
     System.out.println("Uw invoer was: " + number);
 
@@ -59,6 +59,135 @@ Step 3: use the variable from Scanner and ask the user to type something. We mad
 Step 4: give feedback to user.
 
     System.out.println("Uw naam is: " + userName);
+
+### Example #3 user input birth year and name
+
+<i>UserInput.java</i>
+
+Step 1: `scanning`: the variable we are going to use. `new keyword`: we are creating a new object of type scanner. `System.in`: allows you to put info into the console, which then gets returned back to the program.
+
+    Scanner scanning = new Scanner(System.in);
+
+Step 2: ask to enter their year of birth.
+
+    System.out.println("Enter your year of birth:");
+
+Step 3: what is put in `scanning.nextInt()` by the user is stored in `yearOfBirth`.
+
+    int yearOfBirth = scanning.nextInt();
+
+Step 4: when we relate a number from the scanner, we press the Enter key on the keyboard. Doing that ends the line, and you can not add your name. Recommended after a next enter, to call .nextLine again without assigning it to a variable (applies only to numbers that ends the program)
+
+    scanning.nextLine();
+
+Step 5: ask to enter their name, create a `name` object and calculate the age.
+
+    System.out.println("Enter your name: ");
+    String name = scanning.nextLine();
+    int age = 2021 - yearOfBirth;
+
+Step 6: give back the name and age.
+
+    System.out.println("Your name is " + name + ", and you are " + age + " years old.");
+
+Step 7: close the scanner after you are done with it.
+
+    scanning.close();
+
+#### Full code UserInput.java
+
+    package F_Scanner.Example3;
+    
+    import java.util.Scanner;
+    
+    public class UserInput {
+        public static void main(String[] args) {
+            Scanner scanning = new Scanner(System.in);
+    
+            System.out.println("Enter your year of birth:");
+            int yearOfBirth = scanning.nextInt();
+            scanning.nextLine();
+    
+            System.out.println("Enter your name: ");
+            String name = scanning.nextLine();
+            int age = 2021 - yearOfBirth;
+    
+            System.out.println("Your name is " + name + ", and you are " + age + " years old.");
+    
+            scanning.close();
+        }
+    }
+
+### Example #3 user input birth year and name problems and solutions
+
+- what if the user enters a negative number for the year of birth
+- what will happen to the user if they enter some letters instead of only numbers
+
+<i>ProblemsAndSolutions.java</i>
+
+Step 1: `has.NextInt` checks to see if the input entered is a number, in this case an Integer.
+
+    Scanner scanning = new Scanner(System.in);
+    
+    System.out.println("Enter your year of birth:");
+
+    boolean hasNextInt = scanning.hasNextInt();
+
+Step 2: check to see if the boolean `.hasNextInt` is true.
+
+    if (hasNextInt) {
+        int yearOfBirth = scanning.nextInt();
+        scanning.nextLine();
+    
+        System.out.println("Enter your name: ");
+        String name = scanning.nextLine();
+        int age = 2020 - yearOfBirth;
+        } else {
+            System.out.println("Unable to parse year of birth.");
+    }
+
+Step 3: check a valid range: age range of 0 to 100 and if the age is not in that range, error message.
+
+     if (age >= 0 && age <= 100) {
+        System.out.println("Your name is " + name + ", and you are " + age + " years old.");
+     } else {
+        System.out.println("Invalid year of birth");
+     }
+
+#### Full code ProblemsAndSolutions.java
+
+    package F_Scanner.Example3;
+    
+    import java.util.Scanner;
+    
+    public class ProblemsAndSolutions {
+        public static void main(String[] args) {
+            Scanner scanning = new Scanner(System.in);
+    
+            System.out.println("Enter your year of birth:");
+    
+            boolean hasNextInt = scanning.hasNextInt();
+    
+            if (hasNextInt) {
+                int yearOfBirth = scanning.nextInt();
+                scanning.nextLine();
+    
+                System.out.println("Enter your name: ");
+                String name = scanning.nextLine();
+                int age = 2020 - yearOfBirth;
+    
+                if (age >= 0 && age <= 100) {
+                    System.out.println("Your name is " + name + ", and you are " + age + " years old.");
+                } else {
+                    System.out.println("Invalid year of birth");
+                }
+            } else {
+                System.out.println("Unable to parse year of birth.");
+            }
+    
+            scanning.close();
+        }
+    }
 
 
 ## Challenge

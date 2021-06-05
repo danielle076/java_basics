@@ -1,4 +1,4 @@
-package R_ForStatement;
+package R_LoopStatements.ForStatement;
 
 public class Main {
 

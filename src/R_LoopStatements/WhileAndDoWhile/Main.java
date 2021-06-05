@@ -1,4 +1,4 @@
-package R_WhileAndDoWhile;
+package R_LoopStatements.WhileAndDoWhile;
 
 public class Main {
 
