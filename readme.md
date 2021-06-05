@@ -10,9 +10,15 @@
 - `I_String`
 - `J_Operators`
 - `K_IfThen`
+- `K_IfThenElse`  
+- `K_Switch`
 - `L_RelationalOperators`
 - `M_LogicalOperator`
 - `N_OperatorVSEqualsOperator`
 - `O_KeywordAndExpressions`
 - `P_Statement`
 - `Q_CodeBlock`
+- `R_ForStatement`
+- `R_WhileAndDoWhile`
+- `S_Array`
+- `S_ArrayList`
