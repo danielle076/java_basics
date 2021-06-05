@@ -4,7 +4,7 @@ The switch statement begins with the keyword `switch`. Between the brackets you 
 
 The `break` is added when you want to execute code from your switch only once and to prevent your code from going through the entire switch. That makes your application faster. The `default` is the same as the else in an if-else construction.
 
-### Example switch statement currentSeason 
+### Example switch - currentSeason 
 
     int currentSeason = 0;
     
@@ -48,7 +48,7 @@ We have additional conditions: if `anotherSeason` is greater than or equal to 0 
 
 ![img.png](img.png)
 
-### Example switch statement switchValue
+### Example switch - switchValue
 
     int switchValue = 3;
 
@@ -72,7 +72,7 @@ We have additional conditions: if `anotherSeason` is greater than or equal to 0 
 
 ![img_1.png](img_1.png)
 
-### Example switch with toUppercase()
+### Example switch - toUppercase()
 
 With the `.toLowerCase()` or `toUppercase()` it doesn't matter how you write the word. Your case has to be written with lowercase or uppercase letters: this is a method that belongs to the `String`.
 
@@ -91,7 +91,7 @@ With the `.toLowerCase()` or `toUppercase()` it doesn't matter how you write the
 
 ![img_2.png](img_2.png)
 
-## Difference between if and switch
+## Difference if and switch
 
 <i> If statement</i>
 
@@ -130,7 +130,7 @@ With a switch, a variable can be tested for equality against a list of values. E
 You can use both if and switch statement, you'll get the same outcome.<br/>
 Switch is good to use if you're actually testing the same variable. You want to test different values for that variable.
 
-## Main assignment
+## Challenge
 
 - Create a new switch statement using char instead of int.<br/>
 - Create a new char variable.<br/>
@@ -138,7 +138,7 @@ Switch is good to use if you're actually testing the same variable. You want to 
 - Display a message if any of these are found and then break.<br/>
 - Add a default which displays a message saying not found.
 
-## Day of the week assignment - switch and if statement
+## Challenge Day Of The Week  - switch and if statement
 
 Write a method with the name `printDayOfTheWeek` that has one parameter of type int and name it day. The method should not return any value (hint: void)
 

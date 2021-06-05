@@ -1,6 +1,6 @@
 package K_DecisionMakingStatements.Switch;
 
-public class MainSwitch {
+public class ExamplesSwitch {
     public static void main(String[] args) {
         // switch statement currentSeason with 4 seasons
         int currentSeason = 0;

@@ -1,6 +1,6 @@
 package K_DecisionMakingStatements.Switch;
 
-public class MainIfAndSwitch {
+public class DifferenceIfAndSwitch {
 
     public static void main(String[] args) {
         // if statement

@@ -1,6 +1,6 @@
 package K_DecisionMakingStatements.IfThenElse;
 
-public class MainChallenge {
+public class Challenge {
     public static void main(String[] args) {
         boolean gameOver = true;
         int score = 5000;

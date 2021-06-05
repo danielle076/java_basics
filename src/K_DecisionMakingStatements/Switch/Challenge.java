@@ -1,6 +1,6 @@
 package K_DecisionMakingStatements.Switch;
 
-public class MainAssignment {
+public class Challenge {
 
     public static void main(String[] args) {
         char switchChar = 'C';

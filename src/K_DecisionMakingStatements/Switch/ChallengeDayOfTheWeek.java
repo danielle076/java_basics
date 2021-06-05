@@ -1,6 +1,6 @@
 package K_DecisionMakingStatements.Switch;
 
-public class MainDayOfTheWeekAssignment {
+public class ChallengeDayOfTheWeek {
     public static void main(String[] args) {
         printDayOfTheWeek(-1);
         printDayOfTheWeek(0);
