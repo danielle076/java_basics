@@ -1,4 +1,4 @@
-package K_IfThen;
+package K_DecisionMakingStatements.IfThen;
 
 public class Main {
 

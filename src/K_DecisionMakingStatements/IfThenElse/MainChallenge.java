@@ -1,4 +1,4 @@
-package K_IfThenElse;
+package K_DecisionMakingStatements.IfThenElse;
 
 public class MainChallenge {
     public static void main(String[] args) {

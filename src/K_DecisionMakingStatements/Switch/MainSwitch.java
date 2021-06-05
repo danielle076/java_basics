@@ -1,4 +1,4 @@
-package K_Switch;
+package K_DecisionMakingStatements.Switch;
 
 public class MainSwitch {
     public static void main(String[] args) {
