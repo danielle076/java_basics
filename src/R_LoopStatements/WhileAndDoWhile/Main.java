@@ -3,9 +3,9 @@ package R_LoopStatements.WhileAndDoWhile;
 public class Main {
 
     public static void main(String[] args) {
-        // when you don't know how many times you want to loop, you use the while statement
         // while statement compare with for statement
         int count = 1;
+
         while (count != 6) {
             System.out.println("While count value is " + count);
             count++; // difference with for loop is that you have to do the counting manually outside the method

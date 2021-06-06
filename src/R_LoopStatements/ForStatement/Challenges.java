@@ -1,6 +1,6 @@
 package R_LoopStatements.ForStatement;
 
-public class MainChallenge {
+public class Challenges {
     public static void main(String[] args) {
         // Challenge 1
         for (int i = 2; i < 9; i++)

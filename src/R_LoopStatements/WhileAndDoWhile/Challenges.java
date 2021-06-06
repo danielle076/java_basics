@@ -1,6 +1,6 @@
 package R_LoopStatements.WhileAndDoWhile;
 
-public class MainChallenge {
+public class Challenges {
     public static void main(String[] args) {
         // Print challenge 1
         int number = 4;
