@@ -1,6 +1,6 @@
 package D_IntByteShortLong;
 
-public class MainChallenge {
+public class Challenge {
     public static void main(String[] args) {
 
         byte byteValue = 10;
