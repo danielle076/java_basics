@@ -4,7 +4,7 @@
 - `C_Variables`
 - `D_IntByteShort` + `Challenge`
 - `E_AnotherHelloWorld`
-- `F_Scanner`
+- `F_Scanner` + `Challenge`
 - `G_FloatAndDouble` + `Challenge`
 - `H_CharAndBoolean`
 - `I_String`
@@ -22,5 +22,5 @@
 - `R_LoopStatements`  
     - `ForStatement`
     - `WhileAndDoWhile`
-- `S_Array`
+- `S_Array` + `Challenge`
 - `S_ArrayList`
