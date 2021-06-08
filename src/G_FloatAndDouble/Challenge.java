@@ -1,6 +1,6 @@
 package G_FloatAndDouble;
 
-public class MainChallenge {
+public class Challenge {
     public static void main(String[] args) {
         double numberOfPounds = 200d;
         double convertedKilograms = numberOfPounds * 0.45359237d;
