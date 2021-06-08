@@ -9,7 +9,7 @@ public class Main {
     private static GroceryList groceryList = new GroceryList();
 
     public static void main(String[] args) {
-        // step 9 variables ??
+        // step 9 variables
         boolean quit = false;
         int choice = 0;
 

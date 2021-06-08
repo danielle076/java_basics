@@ -1,7 +1,5 @@
 package S_Arraylist;
 
-// the ArrayList (class) is a resizable array
-
 import java.util.ArrayList;
 
 public class GroceryList {
