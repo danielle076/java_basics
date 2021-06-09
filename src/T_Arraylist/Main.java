@@ -1,4 +1,4 @@
-package S_Arraylist;
+package T_Arraylist;
 
 import java.util.Scanner;
 
