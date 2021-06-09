@@ -27,3 +27,53 @@ int is converted to a String by Java.
     int myInt = 50;
     lastString = lastString + myInt;
     System.out.println("Laststring is equal to " + lastString); // Laststring is equal to 1050
+
+
+## Parsing Values From String
+
+Parsing values from a String: convert the String into a primitive data type. 
+
+Defining a String, it's interpreted as text and not as a number.
+
+Goal: convert this piece of text into a number.
+
+    String numberAsString = "2018.125";
+    System.out.println("numberAsString= " + numberAsString);
+
+With parsing method you convert a String into a number.
+
+You know that you use a class Double because it starts with a capital letter.
+
+This class uses a method .parseDouble that converts the String to a number.
+
+    double number = Double.parseDouble(numberAsString);
+    System.out.println("number = " + number);
+
+Calculate with the variables String and double.
+
+    numberAsString += 1; // put a 1 after the number
+    number += 1; // adds a 1 to the number
+    
+    System.out.println("numberAsString = " + numberAsString); // 2018.1251
+    System.out.println("number = " + number); // 2019.125
+
+### Full code
+
+    package I_String;
+    
+    public class ParsingValuesFromString {
+    
+        public static void main(String[] args) {
+            String numberAsString = "2018.125";
+            System.out.println("numberAsString= " + numberAsString);
+    
+            double number = Double.parseDouble(numberAsString);
+            System.out.println("number = " + number);
+    
+            numberAsString += 1; // zet een 1 achter het getal
+            number += 1; // telt een 1 op bij het getal
+    
+            System.out.println("numberAsString = " + numberAsString); // 2018.1251
+            System.out.println("number = " + number); // 2019.125
+        }
+    }
