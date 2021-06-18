@@ -36,7 +36,7 @@ If the if-statement is not true then print the else-statement
 
 ### Example #3 - accessing {}
 
-Within the {} you can access outside variables...
+Within the `{}` you can access outside variables...
 
     if (gameOver == true) {
         int finalScore = score + (levelCompleted * bonus); // 5000 (5 * 100)
@@ -45,7 +45,7 @@ Within the {} you can access outside variables...
 
 ![img_2.png](img_2.png)
 
-...however, you cannot call a variable within the {}, it will give an error.
+...however, you cannot call a variable within the `{}`, it will give an error.
 
     int savedFinalScore = finalScore;
 
@@ -53,9 +53,43 @@ Within the {} you can access outside variables...
 
 ## Challenge
 
-Print out a second score on the screen with the following:
-* score set to 10.000
-* levelCompleted set to 8
-* bonus set to 200 
+Create a decision structure (if/else) below.
 
-But make sure the first printout above still displays as well.
+When someone is older than 17 print the message: "You may buy a state lottery ticket."
+
+When someone is 17 or younger, print the message, "You may not buy a state lottery ticket."
+
+Given code.
+
+    import java.util.Scanner;
+    
+    public class Lottery {
+        public static void main(String[] args) {
+            Scanner userInput = new Scanner(System.in);
+    
+            System.out.println("What is your age?");
+            int userAge = userInput.nextInt();    
+        }
+    }
+
+## Challenge2
+
+In the Netherlands, you are allowed to buy alcoholic beverages from the age of 18. However, you must be able to show ID until you are 25.
+
+In the terminal the user has entered his age. It is up to you to print the following messages:
+- When the user is under 18: You are not allowed to buy alcohol.
+- When the user is 25 or older: You may purchase alcohol without restrictions.
+- When the user is between 18 and 25: You may buy alcohol, but you must show your ID.
+
+Create the decision structure (if/else if/else) below.
+
+    import java.util.Scanner;
+    
+    public class AgeVerification {
+    public static void main(String[] args) {
+        Scanner userInputScanner = new Scanner(System.in);
+    
+            System.out.println("What is your age?");
+            int givenAge = userInputScanner.nextInt();            
+        }
+    }

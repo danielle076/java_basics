@@ -2,7 +2,7 @@ package K_DecisionMakingStatements.IfThenElse;
 
 import java.util.Scanner;
 
-public class Challenge2 {
+public class Challenge {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
 
