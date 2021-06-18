@@ -81,7 +81,7 @@ In the terminal the user has entered his age. It is up to you to print the follo
 - When the user is 25 or older: You may purchase alcohol without restrictions.
 - When the user is between 18 and 25: You may buy alcohol, but you must show your ID.
 
-Create the decision structure (if/else if/else) below.
+Create the decision structure (if/else if/else) with the given code below.
 
     import java.util.Scanner;
     
@@ -91,5 +91,25 @@ Create the decision structure (if/else if/else) below.
     
             System.out.println("What is your age?");
             int givenAge = userInputScanner.nextInt();            
+        }
+    }
+
+## Challenge3
+
+In the console, the user has entered their gender. Using a decision tree (if/else), print the following messages:
+- When the user is a man: Hello sir.
+- When the user is a woman: Hello madam.
+- In all other cases: Hello person.
+
+Bonus: Can you manage to make the code so that capital letters are ignored?
+
+    import java.util.Scanner;
+    
+    public class Gender {
+        public static void main(String[] args) {
+            Scanner userInputScanner = new Scanner(System.in);
+    
+            System.out.println("What is your gender?");
+            String gender = userInputScanner.nextLine();           
         }
     }
