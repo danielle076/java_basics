@@ -113,3 +113,24 @@ Bonus: Can you manage to make the code so that capital letters are ignored?
             String gender = userInputScanner.nextLine();           
         }
     }
+
+## Challenge4
+
+Below is the purchase amount entered. The idea is that you determine the discount and calculate the new amount.
+
+If the amount entered is below 75, the customer will not receive a discount. Print out: "The customer will not receive a discount. The purchase amount remains -HERE THE AMOUNT-"
+
+When the amount entered is 75.00 or higher, but less than or equal to 300.00 the customer will receive a 10% discount. Print out: "The customer receives a 10% discount. The purchase amount is now: -HERE'S THE DISCOUNT-"
+
+If the amount entered is 300.01 or higher, the customer will receive a 16% discount. Print out: "The customer receives a 16% discount. The purchase amount is now: -HERE'S THE DISCOUNT-"
+
+    import java.util.Scanner;
+    
+    public class Discount {
+        public static void main(String[] args) {
+            Scanner userInputScanner = new Scanner(System.in);
+        
+                System.out.println("What is the purchase amount?");
+                double purchaseAmount = userInputScanner.nextDouble();
+        }
+    }
