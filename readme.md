@@ -20,7 +20,7 @@
 - `P_Statement`
 - `Q_CodeBlock`
 - `R_LoopStatements`  
-    - `ForStatement`
-    - `WhileAndDoWhile`
+    - `ForStatement` + `Challenges`
+    - `WhileAndDoWhile` + `Challenges`
 - `S_Array` + `Challenge`
 - `T_ArrayList`
