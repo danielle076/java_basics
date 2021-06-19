@@ -23,4 +23,4 @@
     - `ForStatement` + `Challenges`
     - `WhileAndDoWhile` + `Challenges`
 - `S_Array` + `Challenge`
-- `T_ArrayList`
+- `T_ArrayList` + `Challenge`
