@@ -232,3 +232,36 @@ Step 16: method `searchForItem`.
     }
 
 != means not equal to
+
+## Challenge
+
+Given: a list of names without capital letters of customers.
+
+Task: A lazy intern put all the customers in the system, but he couldn't find the Shift button.
+
+It's up to you to capitalize all the names at the beginning. Create a method that receives a List as a parameter and then capitalizes the contents.
+
+Bonus 1: Make sure that insertions are not capitalized.<br/>
+Bonus 2: Make sure the first letter after a `-` does get capitalized.
+
+    import java.util.ArrayList;
+    import java.util.List;
+    
+    public class CapitalLetters {
+    
+        public static void main(String[] args) {
+            List<String> curstomerNames = new ArrayList<>();
+    
+            curstomerNames.add("nick piraat");
+            curstomerNames.add("michael jackson");
+            curstomerNames.add("glennis grace");
+            curstomerNames.add("dreetje hazes");
+            curstomerNames.add("robbie williams");
+            curstomerNames.add("michiel de ruyter");
+            curstomerNames.add("sjaak polak");
+            curstomerNames.add("jan van jansen");
+            curstomerNames.add("henk den hartog");
+            curstomerNames.add("mo el-mecky");
+            curstomerNames.add("fredje kadetje");
+        }
+    }
