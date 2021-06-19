@@ -11,8 +11,8 @@
 - `J_Operators`
 - `K_DecisionMakingStatements`  
     - `IfThen`
-    - `IfThenElse`  
-    - `Switch`
+    - `IfThenElse` + `Challenges`  
+    - `Switch` + `Challenges`
 - `L_RelationalOperators`
 - `M_LogicalOperator`
 - `N_OperatorVSEqualsOperator`
