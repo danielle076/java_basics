@@ -67,10 +67,71 @@ Do while, advantage that it will always execute at least once.
 ## Challenges
 
 ### Challenge 1
-Create a method called `isEvenNumber` that takes a parameter of type `int`. <br/>
-Its purpose is to determine if the argument passed to the method is an even number or not. <br/>
-Return true if an even number, otherwise return false. <br/>
+
+Create a while loop. This while loop should run for as long as and until the counter reaches 10. Each time the counter is incremented it should be printed out.
+
+Given Code.
+
+    public class Counter {
+        public static void main(String[] args) {
+            int counter = 0;
+        }
+    }
 
 ### Challenge 2
-Modify the while code above. <br/>
-Make it also record the total number of even numbers it has found and break once 5 are found and at the end, display the total number of even numbers found.
+
+Create a while loop. Make sure to reduce the number of candies.
+
+Given Code.
+
+    public class Candy {
+    
+        public static void main (String[] args) {
+            int numberOfCandies = 22;
+    
+            // This code is commented out because the code does not compile without modification.
+            /*while() { // Add the conditional statement here in the brackets.
+                System.out.println("There are still " + numberOfCandies + " candies left over. Time to eat one more.");    
+            }*/
+    
+            System.out.println("The candies are gone.");
+        }
+    }
+
+### Challenge 3
+
+Create a while loop. This while-loop should run as long as and until the counter reaches 10. Print out only the even numbers!
+
+Given Code.
+
+    public class EvenCounter {
+        public static void main(String[] args) {
+            int counter = 0;
+        }
+    }
+
+### Challenge 4
+
+Create a while loop. This while-loop should run as long as and until the counter reaches 10. Print out only the odd numbers!
+
+Given Code.
+
+    public class OddCounter {
+        public static void main(String[] args) {            
+            int counter = 0;
+        }
+    }
+
+### Challenge 5
+
+Look at the while loop below. Make sure the while loop stops at line 22.
+
+    public class StopTwentyTwo {
+        public static void main(String[] args) {
+            int counter = 1;
+            while(counter < 100) { // This rule may not be modified
+                System.out.println("Number: " + counter);
+                counter = counter + 1;
+            }
+        }
+    }
