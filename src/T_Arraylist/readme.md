@@ -233,7 +233,7 @@ Step 16: method `searchForItem`.
 
 != means not equal to
 
-## Challenge
+## Challenge 1
 
 Given: a list of names without capital letters of customers.
 
@@ -263,5 +263,33 @@ Bonus 2: Make sure the first letter after a `-` does get capitalized.
             curstomerNames.add("henk den hartog");
             curstomerNames.add("mo el-mecky");
             curstomerNames.add("fredje kadetje");
+        }
+    }
+
+## Challenge 2
+
+Write a method that receives a List<Integer>.
+
+Check in the method if this list has 3 entries.
+
+If it does not: return the error message, "There are too many or too few numbers in the list."
+
+BONUS: Can you create an error message for too many and an error message for too few?
+
+When there are as many as three numbers in it, return the following:
+A list of numbers sorted from low to high.
+
+You may not use `Collections.sort` or `java.streams` here.
+
+    import java.util.ArrayList;
+    import java.util.Arrays;
+    import java.util.List;
+
+    public class SortList {
+    
+        public static void main(String[] args) {
+    
+            List<Integer> wrongList = new ArrayList<>(Arrays.asList(1, 2, 4, 5, 6, 7, 8));
+            List<Integer> correctList = new ArrayList<>(Arrays.asList(88, 888, 909909));
         }
     }
