@@ -2,7 +2,7 @@ package S_Array;
 
 import java.util.Scanner;
 
-public class Challenge {
+public class Challenge2 {
     // step 1: (System.in) allows you to type input into the console that gets returned back to the program
     private static Scanner scanner = new Scanner(System.in);
 

@@ -97,7 +97,19 @@ Third way to initialize an array: with `for loop`. We're going through each elem
 Querying the length of an array is simple using 'length':
 `int aantalWoningen = bakkerstreet.length`.
 
-## Challenge
+## Challenge 1
+
+Write a method that receives a `List<Integer>`.
+
+When there are two numbers or more in it, return the following:
+"The highest number of the given numbers is: %GETAL%".
+
+You may not use `Collections.sort` or `java.streams` here.
+
+    public class HighestNumber {
+    }
+
+## Challenge 2
 
 Allow the user of the program to type in some numbers. We're going to sum up those total numbers, and figure out the
 averages of those numbers that were typed in.
