@@ -22,5 +22,5 @@
 - `R_LoopStatements`  
     - `ForStatement` + `Challenges`
     - `WhileAndDoWhile` + `Challenges`
-- `S_Array` + `Challenge`
+- `S_Array` + `Challenges`
 - `T_ArrayList` + `Challenges`
