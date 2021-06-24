@@ -293,3 +293,48 @@ You may not use `Collections.sort` or `java.streams` here.
             List<Integer> correctList = new ArrayList<>(Arrays.asList(88, 888, 909909));
         }
     }
+
+## Challenge 3
+
+Copy the code below and answer questions 1 to 6.
+
+    import java.util.ArrayList;
+    import java.util.List;
+    
+    public class ListOefening {
+    
+        public static void main(String[] uitlegList) {
+    
+            // We have a list that includes the names of soccer clubs
+            List<String> clubNames = new ArrayList<>();
+
+            clubNames.add("Ajax");
+            clubNames.add("PSV");
+            clubNames.add("Feyenoord");
+            clubNames.add("Fc Utrecht");
+            clubNames.add("Fc Groningen");
+            clubNames.add("FC Twente");
+    
+            // Question 1: Create a method whose task is to print out the list by line
+    
+            // Question 2: Create a method whose task is to print the list: position + content
+            // The above list would then be this:
+            // 0 - Ajax
+            // 1 - PSV
+            // etc...
+    
+            // Question 3: Create a method that checks if a club is already in the list and add it otherwise
+    
+            // Question 4: Create a method that returns the position of the club in the list
+    
+            // Question 5: Create a method that sorts the list alphabetically. If Ajax is not in position 1, the clubs that are in front of Ajax should be removed
+            // We add some more clubs to test the code
+            clubNames.add("AA Aachen");
+            clubNames.add("AFC Amsterdam");
+            clubNames.add("AFC");
+    
+            // Question 6: Can you do the same as above, but PSV should be last in that case
+            clubNames.add("Zlotty FC");
+            clubNames.add("SC Eindhoven");
+        }
+    }
