@@ -338,3 +338,38 @@ Copy the code below and answer questions 1 to 6.
             clubNames.add("SC Eindhoven");
         }
     }
+
+## Challenge 4
+    
+Task 1: Modify the `addMembers` Method so that  only unique names are allowed.
+
+Task 2: La Resistance does not want the list of names to fall into the hands of the occupying forces. Create a method that encrypts the list in the following way: <br/>
+(a) Change each letter to the number in the alphabet. After each changed letter, add a `-`
+(except the last one). So a becomes 1, b becomes 2 etcetera.
+When a letter is a capital letter, start counting at 100. So A becomes 101, B becomes 102.
+Example: Alex is encrypted to: 101-12-5-24 <br/>
+b) If the position in the list is an even number, then the number combination must be reversed.
+
+Task 3: Write a method that can convert the encrypted list to the decrypted list.
+
+    import java.util.ArrayList;
+    import java.util.List;
+    
+    public class GeheimeCode {
+    
+        public static void main(String[] secret) {
+    
+            List<String> laResistanceMembers = new ArrayList<>();
+    
+            laResistanceMembers = addMembers(laResistanceMembers, "Arie");
+            laResistanceMembers = addMembers(laResistanceMembers, "Sjaak");
+            laResistanceMembers = addMembers(laResistanceMembers, "Henrie");
+            laResistanceMembers = addMembers(laResistanceMembers, "Piet");
+            laResistanceMembers = addMembers(laResistanceMembers, "LeDroitCestMoi");           
+        }
+    
+        private static List<String> addMembers(List<String> members, String name) {
+            members.add(name);
+            return members;
+        }
+    }
